@@ -1,0 +1,148 @@
+.banner {
+  position: relative;
+  background: url(~@img/banner-1440@2x.jpg) left center/cover no-repeat;
+
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 31.38%;
+
+    @include rwd(1440px) {
+      height: 452px;
+      width: 100%;
+      padding: none;
+    }
+  }
+}
+
+.banner-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  &__wrap {
+    max-width: 722px;
+    width: 100%;
+    float: right;
+    text-align: left;
+    margin-right: 20px;
+  }
+
+  &__title {
+    color: $white-two;
+    @include Large-Tilte502-Bold1-Light2-Default-Color1-Left-Aligned;
+  }
+
+  &__short-description {
+    margin-top: 8px;
+    color: $white-two;
+    @include Body182-Bold1-Light2-Default-Color1-Left-Aligned;
+  }
+}
+
+.search-bar {
+  margin-top: 43px;
+  position: relative;
+
+  &__input-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+
+  }
+
+  &__input {
+    border-radius: 5px;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1);
+    background-color: $white-two;
+    @include Body161-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $brown-grey;
+    line-height: 57px;
+    border: none;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+    padding-left: 58px;
+
+
+  }
+
+  &__btn-wrap {
+    padding-left: 8px;
+  }
+
+  &__btn {
+    border: none;
+    width: 105px;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1);
+    background-color: $mid-blue;
+    color: $white-two;
+    cursor: pointer;
+    @include Callout182-Bold1-Light2-Default-Color1-Left-Aligned;
+  }
+
+  &__hot-tag {
+    margin-top: 12px;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 31px;
+    top: 21px;
+    background: url(~@img/search.svg);
+  }
+}
+
+.hot-tag {
+  display: inline-block;
+  width: 100%;
+  padding-left: 70px;
+  position: relative;
+
+  &__label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 54px;
+    border-radius: 5px;
+    background-color: $orange;
+    color: $white-two;
+    @include Footnote142-Bold1-Light2-Default-Color1-Left-Aligned;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    margin: 0 -8px;
+  }
+
+  &__item {
+    padding: 0 8px;
+    @include Callout152-Bold1-Light2-Default-Color1-Left-Aligned;
+
+    a {
+      color: $white-two;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &:before {
+        content: '#';
+        color: $orange;
+      }
+    }
+  }
+
+
+}

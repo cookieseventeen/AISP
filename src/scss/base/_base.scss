@@ -3,3 +3,11 @@
 // -----------------------------------------------------------------------------
 
 @include reset();
+
+.page-container {
+  max-width: $container-width;
+  padding-right: $mobile-padding;
+  padding-left: $mobile-padding;
+  margin-left: auto;
+  margin-right: auto;
+}

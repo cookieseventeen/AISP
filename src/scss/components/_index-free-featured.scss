@@ -1,0 +1,121 @@
+.free-featured {
+  background-color: $mid-blue;
+  padding: 62px 0 68px;
+
+  &__title {
+    @include Tilte282-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $white-two;
+    margin-bottom: 12px;
+  }
+
+  &__block-wrap {
+    margin: 0 -12px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__block {
+    padding: 0 12px;
+    width: 29%;
+
+    &:last-child {
+      width: 42%;
+    }
+  }
+
+  &__list {
+    border-radius: 5px;
+    background-color: $white-two;
+    padding: 4px 28px;
+  }
+
+  &__item {
+    padding: 12px 0;
+    position: relative;
+  }
+
+  &__item-date {
+    @include Footnote151-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $black-three;
+  }
+
+  &__item-title {
+    @include Body172-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-three;
+  }
+
+  &__btn-wrap {
+    text-align: right;
+    margin-top: 12px;
+  }
+
+  &__more-btn {
+    @include Callout182-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $white-two;
+    display: inline-block;
+    padding-right: 12px;
+    position: relative;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      right: 2px;
+      top: 50%;
+      transform-origin: center center;
+      transform: translateY(-50%) rotate(-45deg);
+      border: 2px solid #FFF;
+      border-width: 0 2px 2px 0;
+    }
+  }
+}
+
+.free-featured__item+.free-featured__item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  height: 1px;
+  top: 0;
+  background-color: $very-light-pink-three;
+}
+
+.free-featured-card {
+  border-radius: 5px;
+  border: solid 1px $very-light-pink-two;
+  background-color: $white-two;
+  padding: 30px;
+
+  &__title {
+    @include Tilte242-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-two;
+
+  }
+
+  &__cate-wrap {
+    @include Footnote152-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $mid-blue;
+    margin: 0 -6px;
+  }
+
+  &__cate {
+    padding: 0 6px;
+  }
+
+  &__date {
+    padding: 0 6px;
+  }
+
+  &__info {
+    @include Body161-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $black-three;
+    margin-top: 8px;
+  }
+}

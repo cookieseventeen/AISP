@@ -1,0 +1,92 @@
+.ceo-vision {
+  padding: 64px 0;
+  background: $white url(~@img/photo.png) right center/auto 100% no-repeat;
+
+  &__info {
+    max-width: 680px;
+  }
+
+  &__label {
+    @include Tilte242-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $orange;
+  }
+
+  &__title {
+    margin-top: 4px;
+    @include Large-Tilte362-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-two;
+  }
+
+  &__description {
+    margin-top: 14px;
+    @include Body181-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $black-three;
+  }
+
+  &__list {
+    margin-top: 42px;
+    position: relative;
+  }
+
+  &__item {
+    position: relative;
+    padding-left: 15px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      height: 90%;
+      width: 3px;
+      transform: translateY(-50%);
+      border-radius: 1.3px;
+      background-color: $mid-blue;
+
+    }
+  }
+
+  &__date {
+    @include Footnote151-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $black-three;
+  }
+
+  &__item-title {
+    @include Body182-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-three;
+  }
+
+  &__more {
+    @include Callout182-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $mid-blue;
+    margin-top: 16px;
+    cursor: pointer;
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 10px;
+      height: 10px;
+      margin-left: 4px;
+      border: solid 2px $mid-blue;
+      border-width: 0 2px 2px 0;
+      transform: rotate(-45deg) translateY(-50%);
+
+    }
+  }
+}
+
+.ceo-vision__item+.ceo-vision__item {
+  margin-top: 8px;
+}

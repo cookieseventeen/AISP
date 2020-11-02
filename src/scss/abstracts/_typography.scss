@@ -1,0 +1,672 @@
+@mixin Large-Tilte502-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.16;
+  letter-spacing: -2px;
+}
+
+@mixin Large-Tilte402-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: -1.6px;
+}
+
+@mixin Large-Tilte402-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: -1.6px;
+  text-align: right;
+}
+
+@mixin Large-Tilte402-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: -1.6px;
+  text-align: center;
+}
+
+@mixin Large-Tilte362-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.22;
+  letter-spacing: -1.1px;
+  text-align: right;
+}
+
+@mixin Large-Tilte362-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.22;
+  letter-spacing: -1.1px;
+  text-align: center;
+}
+
+@mixin Large-Tilte362-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.22;
+  letter-spacing: -1.1px;
+}
+
+@mixin Large-Tilte322-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+}
+
+@mixin Large-Tilte322-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  text-align: center;
+}
+
+@mixin Large-Tilte322-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  text-align: right;
+}
+
+@mixin Tilte282-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.29;
+  letter-spacing: -0.6px;
+  text-align: center;
+}
+
+@mixin Tilte282-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.29;
+  letter-spacing: -0.6px;
+  text-align: right;
+}
+
+@mixin Tilte282-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.29;
+  letter-spacing: -0.6px;
+}
+
+@mixin Tilte242-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: -0.51px;
+  text-align: center;
+}
+
+@mixin Tilte242-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: -0.51px;
+}
+
+@mixin Tilte242-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: -0.51px;
+  text-align: right;
+}
+
+@mixin Tilte222-Bold1-Light2-Default-Color1-Left-Aligned-2 {
+  font-family: MicrosoftJhengHei;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.36;
+  letter-spacing: -0.47px;
+}
+
+@mixin Tilte202-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: -0.43px;
+}
+
+@mixin Tilte202-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: -0.43px;
+  text-align: center;
+}
+
+@mixin Tilte202-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: -0.43px;
+  text-align: right;
+}
+
+@mixin Body182-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: center;
+}
+
+@mixin Callout182-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.22;
+  letter-spacing: 0.4px;
+}
+
+@mixin Tilte182-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: -0.39px;
+  text-align: center;
+}
+
+@mixin Callout182-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.22;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+@mixin Tilte182-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: -0.39px;
+}
+
+@mixin Body182-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: right;
+}
+
+@mixin Callout182-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.22;
+  letter-spacing: 0.4px;
+  text-align: right;
+}
+
+@mixin Body182-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+}
+
+@mixin Tilte182-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: -0.39px;
+  text-align: right;
+}
+
+@mixin Body181-Regular1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: -0.2px;
+  text-align: right;
+}
+
+@mixin Body181-Regular1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: -0.2px;
+}
+
+@mixin Body181-Regular1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: -0.2px;
+  text-align: center;
+}
+
+@mixin Callout172-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.29;
+  letter-spacing: 0.38px;
+  text-align: center;
+}
+
+@mixin Body172-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.65;
+  letter-spacing: 0.05px;
+  text-align: center;
+}
+
+@mixin Callout172-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.29;
+  letter-spacing: 0.38px;
+  text-align: right;
+}
+
+@mixin Callout172-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.29;
+  letter-spacing: 0.38px;
+}
+
+@mixin Body172-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.65;
+  letter-spacing: 0.05px;
+  text-align: right;
+}
+
+@mixin Body172-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.65;
+  letter-spacing: 0.05px;
+}
+
+@mixin Body171-Regular1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  line-height: 1.65;
+  letter-spacing: -0.1px;
+  text-align: center;
+}
+
+@mixin Body171-Regular1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  line-height: 1.65;
+  letter-spacing: -0.1px;
+  text-align: right;
+}
+
+@mixin Body171-Regular1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 17px;
+  line-height: 1.65;
+  letter-spacing: -0.1px;
+}
+
+@mixin Tilte162-Bold1-Light2-Default-Color1-Left-Aligned-2 {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.34px;
+}
+
+@mixin Callout162-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+
+@mixin Callout162-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: 0.36px;
+}
+
+@mixin Body162-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.63;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+@mixin Callout162-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: 0.36px;
+  text-align: center;
+}
+
+@mixin Body162-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.63;
+  letter-spacing: 0.1px;
+  text-align: right;
+}
+
+@mixin Body162-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.63;
+  letter-spacing: 0.1px;
+}
+
+@mixin Body161-Regular1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: right;
+}
+
+@mixin Body161-Regular1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@mixin Body161-Regular1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+@mixin Footnote152-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: right;
+}
+
+@mixin Callout152-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.33px;
+  text-align: right;
+}
+
+@mixin Footnote152-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+@mixin Callout152-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.33px;
+}
+
+@mixin Callout152-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.33px;
+  text-align: center;
+}
+
+@mixin Footnote152-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@mixin Body151-Regular1-Light2-Default-Color1-Left-Aligned-2 {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  line-height: 1.73;
+}
+
+@mixin Footnote151-Regular1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.05px;
+}
+
+@mixin Footnote151-Regular1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.05px;
+  text-align: right;
+}
+
+@mixin Footnote151-Regular1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.05px;
+  text-align: center;
+}
+
+@mixin Body142-Bold1-Light2-Default-Color1-Left-Aligned-2 {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.86;
+  letter-spacing: 0.09px;
+}
+
+@mixin Callout142-Bold1-Light2-Default-Color1-Left-Aligned-2 {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.43;
+  letter-spacing: 0.31px;
+}
+
+@mixin Footnote142-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+@mixin Footnote142-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  letter-spacing: 0.15px;
+  text-align: right;
+}
+
+@mixin Footnote142-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  letter-spacing: 0.15px;
+}
+
+@mixin Body141-Regular1-Light2-Default-Color1-Left-Aligned-3 {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: 0.4px;
+}
+
+@mixin Footnote141-Regular1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: -0.1px;
+  text-align: right;
+}
+
+@mixin Footnote141-Regular1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: -0.1px;
+  text-align: center;
+}
+
+@mixin Footnote141-Regular1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: -0.1px;
+}
+
+@mixin Caption132-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.69;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+@mixin Caption132-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.69;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+
+@mixin Caption132-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.69;
+  letter-spacing: 0.2px;
+}
+
+@mixin Caption131-Regular1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 13px;
+  line-height: 1.69;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+@mixin Caption131-Regular1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 13px;
+  line-height: 1.69;
+  letter-spacing: 0.1px;
+  text-align: right;
+}
+
+@mixin Caption131-Regular1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 13px;
+  line-height: 1.69;
+  letter-spacing: 0.1px;
+}
+
+@mixin Caption122-Bold1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: 0.15px;
+}
+
+@mixin Caption122-Bold1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: 0.15px;
+  text-align: right;
+}
+
+@mixin Caption122-Bold1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+@mixin Caption121-Regular1-Light2-Default-Color2-Center-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.05px;
+  text-align: center;
+}
+
+@mixin Caption121-Regular1-Light2-Default-Color1-Left-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.05px;
+}
+
+@mixin Caption121-Regular1-Light2-Default-Color3-Right-Aligned {
+  font-family: MicrosoftJhengHei;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.05px;
+  text-align: right;
+}
