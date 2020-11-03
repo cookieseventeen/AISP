@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/mizok/project_template_v2#readme",
   "dependencies": {
-    "@neux/ui-jquery": "0.0.8",
+    "@neux/ui-jquery": "0.0.8-next.27",
     "jquery": "^3.5.1",
     "rxjs": "^6.5.5"
   },
