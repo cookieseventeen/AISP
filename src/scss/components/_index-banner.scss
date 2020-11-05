@@ -17,7 +17,7 @@
 
 .banner-info {
   position: absolute;
-  top: 50%;
+  top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -61,6 +61,7 @@
     @include Body161-Regular1-Light2-Default-Color1-Left-Aligned;
     color: $brown-grey;
     line-height: 57px;
+    height: 57px;
     border: none;
     flex: 1 1 auto;
     width: 1%;
@@ -85,6 +86,12 @@
     color: $white-two;
     cursor: pointer;
     @include Callout182-Bold1-Light2-Default-Color1-Left-Aligned;
+    transition: box-shadow .4s, background .4s;
+
+    &:hover {
+      box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1);
+      background-color: $cornflower-blue;
+    }
   }
 
   &__hot-tag {
@@ -140,6 +147,7 @@
       &:before {
         content: '#';
         color: $orange;
+        margin-right: 2px;
       }
     }
   }

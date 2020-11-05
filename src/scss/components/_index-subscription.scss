@@ -1,4 +1,6 @@
 .subscription {
+  margin-top: -116px;
+
   &__title {
     @include Large-Tilte362-Bold1-Light2-Default-Color1-Left-Aligned;
     color: $black-two;
@@ -18,13 +20,12 @@
       content: '';
       display: block;
       position: absolute;
-      width: 14px;
-      height: 8px;
+      width: 18px;
+      height: 13px;
+      background: url(~@img/material-icons-black-check@3x.png) center center/cover no-repeat;
+      left: 0;
       top: 50%;
-      border: 2px solid $mid-blue;
-      border-width: 0 0 2px 2px;
-      transform: rotate(-45deg) translateY(-50%);
-      left: 8px;
+      transform: translateY(-50%);
     }
   }
 
@@ -39,6 +40,13 @@
     display: inline-block;
     @include Callout172-Bold1-Light2-Default-Color1-Left-Aligned;
     color: $white-two;
+    cursor: pointer;
+    transition: color 0.4s, background 0.4s;
+
+    &:hover {
+      color: $white-two;
+      background-color: $cornflower-blue;
+    }
   }
 
   &__wrap {

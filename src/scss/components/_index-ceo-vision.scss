@@ -31,8 +31,11 @@
   &__item {
     position: relative;
     padding-left: 15px;
+    color: $black-three;
+    transition: color 0.4s;
 
     &:hover {
+      color: $brownish-grey;
       text-decoration: none;
     }
 
@@ -42,23 +45,22 @@
       position: absolute;
       left: 0;
       top: 50%;
-      height: 90%;
+      height: 82%;
       width: 3px;
       transform: translateY(-50%);
       border-radius: 1.3px;
       background-color: $mid-blue;
-
     }
   }
 
   &__date {
     @include Footnote151-Regular1-Light2-Default-Color1-Left-Aligned;
-    color: $black-three;
+
   }
 
   &__item-title {
     @include Body182-Bold1-Light2-Default-Color1-Left-Aligned;
-    color: $black-three;
+
   }
 
   &__more {
@@ -78,12 +80,16 @@
       right: 0;
       width: 10px;
       height: 10px;
-      margin-left: 4px;
+      margin-top: -2px;
       border: solid 2px $mid-blue;
       border-width: 0 2px 2px 0;
       transform: rotate(-45deg) translateY(-50%);
 
     }
+  }
+
+  &__btn-wrap {
+    margin-top: 16px;
   }
 }
 

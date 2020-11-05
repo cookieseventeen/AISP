@@ -3,4 +3,122 @@
 // -----------------------------------------------------------------------------
 .footer-info {
   background-color: $cobalt;
+  padding-top: 30px;
+  padding-bottom: 32px;
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  &__related-links-block {
+    width: 43.62%;
+  }
+
+  &__company-info-block {
+    width: 56.38%;
+  }
+
+}
+
+.company-info {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  &__block {
+    padding-right: 28px;
+
+    &:nth-child(1) {
+      width: 51.41%;
+    }
+
+    &:nth-child(2) {
+      width: 48.59%;
+    }
+  }
+
+  &__copyright {
+    @include Caption121-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $very-light-pink;
+    margin-top: 8px;
+  }
+
+  &__item {
+    @include Caption132-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $very-light-pink-three;
+  }
+
+  &__logo {
+    margin-top: -4px;
+  }
+
+}
+
+.social-media {
+  margin-top: 8px;
+  overflow: hidden;
+
+  &__list {
+    margin: 0 -10px;
+  }
+
+  &__item {
+    float: left;
+    padding: 0 10px;
+
+    >a {
+      display: block;
+      width: 24px;
+      height: 24px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.company-info__item+.company-info__item {
+  margin-top: 3px;
+}
+
+.related-links {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__block {
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 1px solid $brown-grey-two;
+
+    &:nth-child(1) {
+      width: 58%;
+    }
+
+    &:nth-child(2) {
+      width: 42%;
+      padding-right: 0;
+    }
+  }
+
+  &__title {
+    @include Tilte182-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $white-two;
+    margin-bottom: 11px;
+  }
+
+  &__list {
+    margin: 0 -15px;
+  }
+
+  &__item {
+    @include Footnote151-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $white-two;
+    min-width: 74px;
+    padding: 0 15px;
+    margin-top: 8px;
+  }
 }

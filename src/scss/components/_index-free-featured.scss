@@ -32,16 +32,24 @@
   &__item {
     padding: 12px 0;
     position: relative;
+    display: block;
+    color: $black-three;
+    transition: color 0.4s;
+
+    &:hover {
+      text-decoration: none;
+      color: $brownish-grey;
+    }
   }
 
   &__item-date {
     @include Footnote151-Regular1-Light2-Default-Color1-Left-Aligned;
-    color: $black-three;
+    display: block;
+
   }
 
   &__item-title {
     @include Body172-Bold1-Light2-Default-Color1-Left-Aligned;
-    color: $black-three;
   }
 
   &__btn-wrap {
@@ -76,6 +84,16 @@
   }
 }
 
+.free-featured__item:hover {
+  .free-featured__item-date {
+    color: $brownish-grey;
+  }
+
+  .free-featured__item-title {
+    color: $brownish-grey;
+  }
+}
+
 .free-featured__item+.free-featured__item::before {
   content: '';
   display: block;
@@ -92,6 +110,12 @@
   border: solid 1px $very-light-pink-two;
   background-color: $white-two;
   padding: 30px;
+  display: block;
+  transition: box-shadow 0.4s;
+
+  &:hover {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.4);
+  }
 
   &__title {
     @include Tilte242-Bold1-Light2-Default-Color1-Left-Aligned;
@@ -99,18 +123,19 @@
 
   }
 
-  &__cate-wrap {
-    @include Footnote152-Bold1-Light2-Default-Color1-Left-Aligned;
-    color: $mid-blue;
-    margin: 0 -6px;
-  }
+  // &__cate-wrap {
+  //   @include Footnote152-Bold1-Light2-Default-Color1-Left-Aligned;
+  //   color: $mid-blue;
+  //   margin: 0 -6px;
+  // }
 
-  &__cate {
-    padding: 0 6px;
-  }
+  // &__cate {
+  //   padding: 0 6px;
+  // }
 
   &__date {
-    padding: 0 6px;
+    @include Footnote152-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $mid-blue;
   }
 
   &__info {

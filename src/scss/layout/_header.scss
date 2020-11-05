@@ -1,3 +1,65 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.header {
+  &__logo {
+    width: 191px;
+    margin-left: 6px;
+  }
+
+  &__ul {
+    display: flex;
+    margin-right: 18px;
+
+  }
+
+  &__link {
+    @include Callout162-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-three;
+    padding: 0 16px;
+  }
+
+  &__btn-wrap {
+    position: relative;
+    padding-left: 16px;
+
+    &::before {
+      content: '';
+      display: block;
+      height: 14px;
+      width: 2px;
+      background: $very-light-pink;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+  }
+
+  &__btn {
+    @include Callout162-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $mid-blue;
+    padding: 0 16px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__head {
+    float: left;
+  }
+
+  &__body {
+    float: right;
+    display: flex;
+    margin-top: 4px;
+  }
+
+  &__inner {
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 15px 0 16px;
+  }
+}

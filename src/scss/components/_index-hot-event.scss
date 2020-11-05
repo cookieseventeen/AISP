@@ -1,0 +1,240 @@
+.hot-event-grid {
+  background: $white;
+  padding-top: 62px;
+  padding-bottom: 195px;
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__sidebar {
+    width: 37.5%;
+    padding-left: 5.58%;
+  }
+
+  &__main {
+    width: 62.5%;
+  }
+}
+
+.hot-event {
+  &__title {
+    @include Large-Tilte362-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-two;
+    margin-bottom: 2px;
+  }
+
+  &__description {
+    @include Body181-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $black;
+  }
+
+  &__head {
+    margin-bottom: 17px;
+  }
+
+  &__list {
+    margin-top: 24px;
+    border: solid 1px $very-light-pink-two;
+    background-color: $white-two;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__link {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 12px 20px;
+    color: $black-three;
+    transition: color 0.4s;
+    @include text-ellipsis();
+
+    &:hover {
+      text-decoration: none;
+      color: $brownish-grey;
+    }
+  }
+
+  &__date {
+    @include Footnote151-Regular1-Light2-Default-Color1-Left-Aligned;
+    margin-right: 24px;
+
+  }
+
+  &__list-title {
+    @include Body172-Bold1-Light2-Default-Color1-Left-Aligned;
+
+  }
+
+  &__wrap {
+    margin-top: 12px;
+    text-align: right;
+  }
+}
+
+// .hot-event__link:hover {
+//   .hot-event__date {
+//     color: $brownish-grey;
+//   }
+
+//   .hot-event__list-title {
+//     color: $brownish-grey;
+//   }
+// }
+
+.hot-event__item+.hot-event__item {
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: $very-light-pink-three;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.news-sidebar {
+  &__title {
+    @include Large-Tilte362-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-two;
+    margin-bottom: 2px;
+  }
+
+  &__description {
+    @include Body181-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $black;
+  }
+
+  &__head {
+    margin-bottom: 17px;
+  }
+}
+
+.picture-card {
+  display: flex;
+  flex-wrap: wrap;
+  background: #FFF;
+  border-radius: 5px;
+  border: solid 1px $very-light-pink-two;
+  background-color: $white-two;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  width: 100%;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  &__picture {
+    width: calc(100% - 300px);
+    background-size: cover;
+    background-position: center center;
+    height: 311px;
+  }
+
+  &__info {
+    width: 300px;
+    padding: 30px;
+  }
+
+  &__title {
+    @include Tilte282-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-two;
+  }
+
+  &__date {
+    @include Footnote152-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $mid-blue;
+    margin-bottom: 13px;
+  }
+
+  &__description {
+    @include Body161-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $black-three;
+  }
+
+}
+
+.daily-news {
+  &__date {
+    @include Body162-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $orange;
+    margin-bottom: 4px;
+  }
+
+  &__carousel {
+    @include nxjq-carousel($very-light-pink, $orange, 10px, $orange);
+  }
+
+  &__link {
+    display: block;
+    border: solid 1px $very-light-pink-two;
+    background: #FFF;
+    padding: 15px 24px;
+    border-radius: 5px;
+    transition: color 0.4s, background-color 0.4s, border 0.4s;
+
+  }
+
+  &__cate {
+    display: block;
+    @include Body161-Regular1-Light2-Default-Color1-Left-Aligned;
+    color: $black;
+    transition: color 0.4s;
+  }
+
+  &__title {
+    display: block;
+    @include Tilte202-Bold1-Light2-Default-Color1-Left-Aligned;
+    color: $black-two;
+    transition: color 0.4s;
+    @include text-ellipsis();
+  }
+
+  &__wrap {
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .nxjq-carousel__pagination {
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nxjq-carousel__pagination__children+.nxjq-carousel__pagination__children {
+    margin-left: 7px;
+  }
+
+  .nxjq-carousel__navigation {
+    display: none;
+  }
+}
+
+.daily-news__link:hover {
+  background-color: $orange;
+  text-decoration: none;
+  border-color: $orange;
+
+  .daily-news__cate {
+    color: #FFF;
+  }
+
+  .daily-news__title {
+    color: #FFF;
+  }
+
+}
+
+.daily-news__item+.daily-news__item {
+  margin-top: 8px;
+}

@@ -10,4 +10,73 @@
   padding-left: $mobile-padding;
   margin-left: auto;
   margin-right: auto;
+
+  @include rwd(1199px) {
+    max-width: 904px;
+  }
+}
+
+.more-btn {
+  @include Callout182-Bold1-Light2-Default-Color1-Left-Aligned;
+  color: $mid-blue;
+  cursor: pointer;
+  padding-right: 12px;
+  position: relative;
+  display: inline-block;
+  transition: color 0.4s;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    margin-top: -2px;
+    border: solid 2px $mid-blue;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg) translateY(-50%);
+    transition: border 0.4s;
+  }
+
+  &:hover {
+    color: $cornflower-blue;
+
+    &::after {
+      border-color: $cornflower-blue;
+    }
+  }
+
+  &--orange {
+    color: $orange;
+
+    &:after {
+      border-color: $orange;
+    }
+
+    &:hover {
+      color: $dusty-orange;
+
+      &::after {
+        border-color: $dusty-orange;
+      }
+    }
+  }
+
+  &--white {
+    color: $white-two;
+
+    &::after {
+      border-color: $white-two;
+    }
+  }
+}
+
+a {
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
 }

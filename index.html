@@ -11,9 +11,39 @@
 
 <body>
   <!-- 內容填在這邊喔 :D -->
-  <header>
-    <div class="logo">
-
+  <header class="header" id="header">
+    <div class="header__inner clearfix">
+      <div class="header__head">
+        <a class="img-link header__logo" href="index.html">
+          <img src="~@img/logo@2x.png" alt="MIC AISP情報顧問服務">
+        </a>
+      </div>
+      <nav class="header__body" id="menu">
+        <ul class="header__ul" id="header-nav-ul">
+          <li class="header__li">
+            <a href="#" class="header__link">報告總覽</a>
+          </li>
+          <li class="header__li">
+            <a href="#" class="header__link">相關服務</a>
+          </li>
+          <li class="header__li">
+            <a href="#" class="header__link">研討活動</a>
+          </li>
+          <li class="header__li">
+            <a href="#" class="header__link">研究團隊</a>
+          </li>
+          <li class="header__li">
+            <a href="#" class="header__link">產業新聞</a>
+          </li>
+        </ul>
+        <div class="header__btn-wrap">
+          <a class="header__btn" href="/service-feature.html">線上試閱申請</a>
+          <a class="header__btn" href="/service-feature.html">登入</a>
+          <a class="header__btn" href="/service-feature.html"><img src="~@img/search.svg" class="svg-inline"
+              alt="Search"></a>
+        </div>
+        <div class="header__hamburger"></div>
+      </nav>
     </div>
   </header>
   <main>
@@ -53,10 +83,435 @@
         </div>
       </div>
     </div>
+    <div class="info-grid">
+      <div class="info-grid__wrap page-container">
+        <div class="info-grid__sidebar">
+          <div class="focus">
+            <div class="focus__head">
+              <div class="focus__title">
+                焦點內容
+              </div>
+              <div class="focus__description group-height">
+                各界關注的焦點內容及產業趨勢，盡收眼底。
+              </div>
+            </div>
+            <div class="focus__body">
+              <a class="focus-card">
+                <div class="focus-card__img"
+                  style="background-image: url('assets/images/component-desktop-area-card-default-copy.jpg');">
+                </div>
+                <div class="focus-card__info-wrap">
+                  <div class="focus-card__title" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2"
+                    description-max-line="2" description-min-line="1">新冠狀病毒
+                    COVID-19 專區</div>
+                  <div class="focus-card__description" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2">
+                    疫情快訊、異地辦公解決方案...，為您提供 COVID-19 的最新資訊及應對方案。
+                  </div>
+                </div>
+              </a>
+              <a class="focus-card">
+                <div class="focus-card__img"
+                  style="background-image: url('assets/images/component-desktop-area-card-default-copy-2.jpg');">
+                </div>
+                <div class="focus-card__info-wrap">
+                  <div class="focus-card__title" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2"
+                    description-max-line="2" description-min-line="1">垂直新應用
+                    十大模組專區</div>
+                  <div class="focus-card__description" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2">
+                    從智慧製造、綠能科技到數位轉型，研擬十大主題相對應之發展策略及趨勢分析。
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="info-grid__main">
+          <div class="report">
+            <div class="report__head">
+              <div class="report__title">
+                研究報告
+              </div>
+              <div class="report__description group-height">
+                專業評析、深度洞察的結果，呈現給你。
+              </div>
+            </div>
+            <div class="report__body">
+              <div class="keyword">
+                <div class="keyword__title">
+                  熱門關鍵字
+                </div>
+                <div class="keyword__list">
+                  <div class="keyword__item">
+                    <button class="keyword__btn keyword__btn--ative">數位轉型</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">疫情</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">5G</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">區塊鏈</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">綠色金融</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">個人經濟圈</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">後華為時代</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">無人機</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">Z世代</button>
+                  </div>
+                  <div class="keyword__item">
+                    <button class="keyword__btn">智慧住宅</button>
+                  </div>
+                </div>
+              </div>
+              <div class="report-grid">
+                <div class="report-grid__wrap">
+                  <div class="report-grid__block report-grid__block--width-picture">
+                    <a class="picture-card">
+                      <div class="picture-card__picture" style="background-image: url('assets/images/card-copy.jpg');">
+
+                      </div>
+                      <div class="picture-card__info">
+                        <div class="picture-card__title" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2"
+                          description-max-line="6" description-min-line="5">
+                          新型機器人教學介面推動工作轉型
+                        </div>
+                        <div class="picture-card__date">
+                          9月18日, 2020
+                        </div>
+                        <div class="picture-card__description" text-trimmer-mode="maxLineNumber"
+                          text-trimmer-max-line="5">
+                          新型機器人教學介面提供無須編輯程式（No-code）的教學方法，讓不熟悉機器人程式的製造業員工也能透過比手畫腳、圖形化或多元模式（視覺辨識、語音、觸控等...
+                        </div>
+                      </div>
+                    </a>
+                    <!--
+                    <div class="report-grid__img"
+                      style="background-image: url('assets/images/component-desktop-report-card-primary-default-copy.jpg');">
+
+                    </div>
+                    <div class="report-grid__info">
+                      <div class="report-grid__title" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2"
+                        description-max-line="6" description-min-line="5">
+                        新型機器人教學介面推動工作轉型
+                      </div>
+                      <div class="report-grid__cate-wrap">
+                        <span class="report-grid__cate">
+                          資訊電子
+                        </span>
+                        <span class="report-grid__date">
+                          12月7日, 2017
+                        </span>
+                      </div>
+                      <div class="report-grid__description" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="5">
+                        新型機器人教學介面提供無須編輯程式（No-code）的教學方法，讓不熟悉機器人程式的製造業員工也能透過比手畫腳、圖形化或多元模式（視覺辨識、語音、觸控...
+                      </div>
+                    </div>
+                  -->
+                  </div>
+                  <div class="report-grid__block">
+                    <div class="report-grid__info">
+                      <div class="report-grid__title" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2"
+                        description-max-line="4" description-min-line="3">
+                        RCS在中國大陸之發展動態
+                      </div>
+                      <span class="report-grid__date">
+                        9月18日, 2020
+                      </span>
+                      <div class="report-grid__description" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="3">
+                        中國大陸三大電信業者於2020年4月聯合發佈《5G消息白皮書》，協同推進富通訊服務（Rich communication services，RCS）應用服務。《5G...
+                      </div>
+                    </div>
+                  </div>
+                  <div class="report-grid__block">
+                    <div class="report-grid__info">
+                      <div class="report-grid__title" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2"
+                        description-max-line="4" description-min-line="3">
+                        電競PC發展觀測
+                      </div>
+                      <span class="report-grid__date">
+                        9月18日, 2020
+                      </span>
+                      <div class="report-grid__description" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="3">
+                        受新冠肺炎疫情影響，宅經濟盛行，電競成為人們重要娛樂，大環境帶動2020年電競PC需求。對於電競PC產品本身，CPU、GPU、顯示器的規...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="report__btn-wrap">
+              <a href="#" class="more-btn">所有報告</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hot-event-grid">
+      <div class="hot-event-grid__wrap page-container">
+        <div class="hot-event-grid__main">
+          <div class="hot-event">
+            <div class="hot-event__head">
+              <div class="hot-event__title">
+                熱門活動
+              </div>
+              <div class="hot-event__description">
+                最新的研討活動及論壇資訊，都在這裡。
+              </div>
+            </div>
+            <div class="hot-event__body">
+
+              <a class="picture-card">
+                <div class="picture-card__picture" style="background-image: url('assets/images/card-copy.jpg');">
+
+                </div>
+                <div class="picture-card__info">
+                  <div class="picture-card__title" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="2"
+                    description-max-line="6" description-min-line="5">
+                    【MIC Insight】資通半導體前瞻趨勢
+                  </div>
+                  <div class="picture-card__date">
+                    9月24日, 2020
+                  </div>
+                  <div class="picture-card__description" text-trimmer-mode="maxLineNumber" text-trimmer-max-line="5">
+                    本次將探討資訊、通訊、半導體三大主題，MIC資深研究團隊將以全球市場前瞻及產業解析與關注議題兩大構面進行剖析。面對衝擊，該如何超前部署？MIC期能透過多...
+                  </div>
+                </div>
+              </a>
+
+              <div class="hot-event__list">
+                <div class="hot-event__item">
+                  <a href="" class="hot-event__link">
+                    <span class="hot-event__date">10月14日, 2020</span>
+                    <span class="hot-event__list-title">數位金融新未來 高峰論壇</span>
+                  </a>
+                </div>
+                <div class="hot-event__item">
+                  <a href="" class="hot-event__link">
+                    <span class="hot-event__date">10月20日, 2020</span>
+                    <span class="hot-event__list-title">【MIC Insight】數位轉型 - 驅動企業新價值</span>
+                  </a>
+                </div>
+                <div class="hot-event__item">
+                  <a href="" class="hot-event__link">
+                    <span class="hot-event__date">10月24日, 2020</span>
+                    <span class="hot-event__list-title">【MIC Insight】數位科技新趨勢</span>
+                  </a>
+                </div>
+                <div class="hot-event__item">
+                  <a href="" class="hot-event__link">
+                    <span class="hot-event__date">10月28日, 2020</span>
+                    <span class="hot-event__list-title">【33rd MIC FORUM Fall】超越</span>
+                  </a>
+                </div>
+                <div class="hot-event__item">
+                  <a href="" class="hot-event__link">
+                    <span class="hot-event__date">12月17日, 2020</span>
+                    <span class="hot-event__list-title">【MIC Foresight】2021高科技產業前瞻趨勢</span>
+                  </a>
+                </div>
+              </div>
+              <div class="hot-event__wrap">
+                <a class="more-btn">
+                  所有活動
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hot-event-grid__sidebar">
+          <div class="news-sidebar">
+            <div class="news-sidebar__head">
+              <div class="news-sidebar__title">
+                產業新聞
+              </div>
+              <div class="news-sidebar__description">
+                產業相關的報導關注，不容錯過。
+              </div>
+            </div>
+            <div class="news-sidebar__body">
+              <div class="daily-news">
+                <div class="daily-news__date">
+                  9月26日, 2020
+                </div>
+                <div class="daily-news__carousel">
+                  <div class="daily-news__carousel-parts">
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">半導體</span>
+                        <span class="daily-news__title">台積群聚效應 默克加碼台灣</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">半導體</span>
+                        <span class="daily-news__title">台塑攜日商 搶半導體商機</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">又改口 台電：保留浮動接氣</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">亞馬遜拚智慧家居 供應鏈看俏</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">國壽逾5.4兆元 遵循責任投資</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">景氣衝擊 想當家教者年增五成</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="daily-news__carousel-parts">
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">半導體</span>
+                        <span class="daily-news__title">台積群聚效應 默克加碼台灣</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">半導體</span>
+                        <span class="daily-news__title">台塑攜日商 搶半導體商機</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">又改口 台電：保留浮動接氣</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">亞馬遜拚智慧家居 供應鏈看俏</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">國壽逾5.4兆元 遵循責任投資</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">景氣衝擊 想當家教者年增五成</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="daily-news__carousel-parts">
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">半導體</span>
+                        <span class="daily-news__title">台積群聚效應 默克加碼台灣</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">半導體</span>
+                        <span class="daily-news__title">台塑攜日商 搶半導體商機</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">又改口 台電：保留浮動接氣</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">亞馬遜拚智慧家居 供應鏈看俏</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">國壽逾5.4兆元 遵循責任投資</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">景氣衝擊 想當家教者年增五成</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="daily-news__carousel-parts">
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">半導體</span>
+                        <span class="daily-news__title">台積群聚效應 默克加碼台灣</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">半導體</span>
+                        <span class="daily-news__title">台塑攜日商 搶半導體商機</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">又改口 台電：保留浮動接氣</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">亞馬遜拚智慧家居 供應鏈看俏</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">國壽逾5.4兆元 遵循責任投資</span>
+                      </a>
+                    </div>
+                    <div class="daily-news__item">
+                      <a href="#" class="daily-news__link">
+                        <span class="daily-news__cate">垂直應用</span>
+                        <span class="daily-news__title">景氣衝擊 想當家教者年增五成</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="daily-news__wrap">
+                  <a class="more-btn more-btn--orange">
+                    所有新聞
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="subscription">
       <div class="subscription__wrap page-container">
         <div class="subscription__pic">
-          <img src="~@img/subscription-photo-copy.jpg" alt="訂閱AISP，加入產業潮流">
+          <img src="~@img/subscription-photo-copy.png" alt="訂閱AISP，加入產業潮流">
         </div>
         <div class="subscription__info">
           <div class="subscription__title">
@@ -74,9 +529,9 @@
             </div>
           </div>
           <div class="subscription__btn-wrap">
-            <div class="subscription__btn">
+            <a class="subscription__btn">
               開始試閱
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -92,10 +547,8 @@
               <div class="free-featured-card__title">
                 AR/VR 應用發展現況與趨勢
               </div>
-              <div class="free-featured-card__cate-wrap">
-                <span class="free-featured-card__cate">資訊電子</span><span class="free-featured-card__date">3月8日,
-                  2018</span>
-              </div>
+              <span class="free-featured-card__date">3月8日,
+                2018</span>
               <div class="free-featured-card__info">
                 2017年被譽為VR元年，但內容應用仍以遊戲發展最為快速且成熟，主要大廠皆以此為基礎，持續...
               </div>
@@ -106,10 +559,8 @@
               <div class="free-featured-card__title">
                 無人才超人 思考「無人」的創作價值與脫...
               </div>
-              <div class="free-featured-card__cate-wrap">
-                <span class="free-featured-card__cate">資訊電子</span><span class="free-featured-card__date">12月7日,
-                  2017</span>
-              </div>
+              <span class="free-featured-card__date">12月7日,
+                2017</span>
               <div class="free-featured-card__info">
                 在當今智慧感測運算科技精進下，快速賦予眾多傳統動力機械產品或新興服務器...
               </div>
@@ -117,35 +568,35 @@
           </div>
           <div class="free-featured__block">
             <div class="free-featured__list">
-              <div class="free-featured__item">
-                <div class="free-featured__item-date">
+              <a class="free-featured__item">
+                <span class="free-featured__item-date">
                   9月15日, 2017
-                </div>
-                <div class="free-featured__item-title">
+                </span>
+                <span class="free-featured__item-title">
                   從WRC2017勾勒中國大陸服務型機器人與AI產業...
-                </div>
-              </div>
-              <div class="free-featured__item">
-                <div class="free-featured__item-date">
+                </span>
+              </a>
+              <a class="free-featured__item">
+                <span class="free-featured__item-date">
                   6月3日, 2017
-                </div>
-                <div class="free-featured__item-title">
+                </span>
+                <span class="free-featured__item-title">
                   中國大陸AI+健康醫療主要廠商布局重點觀察
-                </div>
-              </div>
-              <div class="free-featured__item">
-                <div class="free-featured__item-date">
+                </span>
+              </a>
+              <a class="free-featured__item">
+                <span class="free-featured__item-date">
                   4月19日, 2017
-                </div>
-                <div class="free-featured__item-title">
+                </span>
+                <span class="free-featured__item-title">
                   借鏡韓、日在越發展經驗談台商新南向之可行策略
-                </div>
-              </div>
+                </span>
+              </a>
             </div>
           </div>
         </div>
         <div class="free-featured__btn-wrap">
-          <a href="" class="free-featured__more-btn">查看全部</a>
+          <a href="#" class="more-btn more-btn--white">查看全部</a>
         </div>
       </div>
     </div>
@@ -179,8 +630,8 @@
               </div>
             </a>
           </div>
-          <div class="ceo-vision__more">
-            查看全部
+          <div class="ceo-vision__btn-wrap">
+            <a class="more-btn">查看全部</a>
           </div>
         </div>
       </div>
@@ -189,7 +640,95 @@
   <footer>
     <div class="footer-info">
       <div class="footer-info__wrap page-container">
-        <img src="~@img/" alt="">
+        <div class="footer-info__block footer-info__related-links-block">
+          <div class="related-links">
+            <div class="related-links__block">
+              <div class="related-links__title">
+                相關連結
+              </div>
+              <div class="related-links__list">
+                <a href="#" class="related-links__item">
+                  資策會
+                </a>
+                <a href="#" class="related-links__item">
+                  English Service
+                </a>
+                <a href="#" class="related-links__item">
+                  MIC
+                </a>
+                <a href="#" class="related-links__item">
+                  MIC Friends
+                </a>
+              </div>
+            </div>
+            <div class="related-links__block">
+              <div class="related-links__title">
+                關於我們
+              </div>
+              <div class="related-links__list">
+                <a href="#" class="related-links__item">
+                  MIC新聞室
+                </a>
+                <a href="#" class="related-links__item">
+                  著作權聲明
+                </a>
+                <a href="#" class="related-links__item">
+                  隱私權聲明
+                </a>
+                <a href="#" class="related-links__item">
+                  使用手冊
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-info__block  footer-info__company-info-block">
+          <div class="company-info">
+            <div class="company-info__block">
+              <div class="company-info__logo">
+                <img src="~@img/mic-footer-logo-3-x.png" alt="AISP">
+              </div>
+              <div class="company-info__copyright">
+                ©2020 Market Intelligence & Consulting Institute
+              </div>
+            </div>
+            <div class="company-info__block">
+              <div class="company-info__list">
+                <div class="company-info__item">
+                  Email：members@micmail.iii.org.tw
+                </div>
+                <div class="company-info__item">
+                  電話：886-2-2378-2306
+                </div>
+                <div class="company-info__item">
+                  地址：10622 台北市敦化南路二段216號19樓
+                </div>
+              </div>
+              <!--
+              <div class="social-media">
+                <div class="social-media__list clearfix">
+                  <div class="social-media__item">
+                    <a>
+                      <img src="~@img/img-fb@3x.png" alt="">
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a>
+                      <img src="~@img/img-youtube@3x.png" alt="">
+                    </a>
+                  </div>
+                  <div class="social-media__item">
+                    <a>
+                      <img src="~@img/img-skype@3x.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            -->
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
   </footer>
